@@ -6,7 +6,7 @@ Aplicativo feito em Windows Forms (C#) para a gestão do hotel **unip resort**.
 
 ## Objetivo
 
-Solucionar problemas relacionados à falta de controle na gestão e organização das atividades de um hotel fictício, conforme o canário proposto pelo enunciado do trabalho de 3º semstre (4º na grade curricular).
+Solucionar problemas relacionados à falta de controle na gestão e organização das atividades de um hotel fictício, conforme o cenário proposto pelo enunciado do trabalho do 3º semestre.
 
 Os principais intuitos deste projeto são:
 
