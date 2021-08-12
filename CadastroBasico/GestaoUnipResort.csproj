@@ -71,7 +71,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\CadastroFuncionarios.cs" />
+    <Compile Include="Classes\Funcionarios.cs" />
+    <Compile Include="Classes\Database.cs" />
     <Compile Include="Classes\Quarto.cs" />
     <Compile Include="Forms\Quartos\FormAdicionarQuarto.cs">
       <SubType>Form</SubType>
