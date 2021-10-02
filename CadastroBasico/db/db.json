@@ -1,0 +1,81 @@
+{
+    "funcionario": [
+        {
+            "id": "1",
+            "nome": "João",
+            "cpf": "145.424.065-44",
+            "rg": "42.414.424-5",
+            "telefone": "(13)99284-4241",  
+            "nascimento": "2002-03-24", 
+            "cep": "14255521", 
+            "sexo": "M", 
+            "email_pessoal": "joao@email.com",
+            "logradouro": "Rua Seu Zé",
+            "bairro": "Zé Da Rua",
+            "numero": "155",
+            "cidade": "Zé dos Campinhais",
+            "estado": "SP",
+            "complemento": "Casa",
+            "cargo": "Recepcionista",
+            "carga_horaria": 8.30,
+            "salario": 1450.00,
+            "dataContratacao": "2020-12-12",
+            "login": {
+                "email": "joao@unipresort.com.br",
+                "password": "un1pr3sort"
+            }  
+        },
+
+        {
+            "id": "2",
+            "nome": "Carlos",
+            "cpf": "145.424.065-44",
+            "rg": "42.414.424-5",
+            "telefone": "(13)99284-4241",  
+            "nascimento": "2002-03-24", 
+            "cep": "14255521", 
+            "sexo": "M", 
+            "email_pessoal": "joao@email.com",
+            "logradouro": "Rua Seu Zé",
+            "bairro": "Zé Da Rua",
+            "numero": "155",
+            "cidade": "Zé dos Campinhais",
+            "estado": "SP",
+            "complemento": "Casa",
+            "cargo": "Recepcionista",
+            "carga_horaria": 8.30,
+            "salario": 1450.00,
+            "dataContratacao": "2020-12-12",
+            "login": {
+                "email": "joao@unipresort.com.br",
+                "password": "un1pr3sort"
+            }  
+        },
+
+        {
+            "id": "3",
+            "nome": "Nascimento",
+            "cpf": "145.424.065-44",
+            "rg": "42.414.424-5",
+            "telefone": "(13)99284-4241",  
+            "nascimento": "2002-03-24", 
+            "cep": "14255521", 
+            "sexo": "M", 
+            "email_pessoal": "joao@email.com",
+            "logradouro": "Rua Seu Zé",
+            "bairro": "Zé Da Rua",
+            "numero": "155",
+            "cidade": "Zé dos Campinhais",
+            "estado": "SP",
+            "complemento": "Casa",
+            "cargo": "Recepcionista",
+            "carga_horaria": 8.30,
+            "salario": 1450.00,
+            "dataContratacao": "2020-12-12",
+            "login": {
+                "email": "joao@unipresort.com.br",
+                "password": "un1pr3sort"
+            }  
+        }
+    ]
+}
