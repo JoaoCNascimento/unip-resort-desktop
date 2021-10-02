@@ -33,6 +33,7 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.btnFinanças = new FontAwesome.Sharp.IconButton();
             this.btnRelatorioQuartos = new FontAwesome.Sharp.IconButton();
             this.btnDesempenhoFunc = new FontAwesome.Sharp.IconButton();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // btnRelatorioGeral
@@ -45,7 +46,7 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.btnRelatorioGeral.IconColor = System.Drawing.Color.White;
             this.btnRelatorioGeral.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRelatorioGeral.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRelatorioGeral.Location = new System.Drawing.Point(251, 97);
+            this.btnRelatorioGeral.Location = new System.Drawing.Point(257, 64);
             this.btnRelatorioGeral.Name = "btnRelatorioGeral";
             this.btnRelatorioGeral.Size = new System.Drawing.Size(370, 94);
             this.btnRelatorioGeral.TabIndex = 0;
@@ -62,7 +63,7 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.btnFinanças.IconColor = System.Drawing.Color.White;
             this.btnFinanças.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnFinanças.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFinanças.Location = new System.Drawing.Point(251, 197);
+            this.btnFinanças.Location = new System.Drawing.Point(257, 164);
             this.btnFinanças.Name = "btnFinanças";
             this.btnFinanças.Size = new System.Drawing.Size(370, 94);
             this.btnFinanças.TabIndex = 1;
@@ -79,7 +80,7 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.btnRelatorioQuartos.IconColor = System.Drawing.Color.White;
             this.btnRelatorioQuartos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRelatorioQuartos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRelatorioQuartos.Location = new System.Drawing.Point(251, 297);
+            this.btnRelatorioQuartos.Location = new System.Drawing.Point(257, 264);
             this.btnRelatorioQuartos.Name = "btnRelatorioQuartos";
             this.btnRelatorioQuartos.Size = new System.Drawing.Size(370, 94);
             this.btnRelatorioQuartos.TabIndex = 2;
@@ -96,12 +97,30 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.btnDesempenhoFunc.IconColor = System.Drawing.Color.White;
             this.btnDesempenhoFunc.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDesempenhoFunc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDesempenhoFunc.Location = new System.Drawing.Point(251, 397);
+            this.btnDesempenhoFunc.Location = new System.Drawing.Point(257, 364);
             this.btnDesempenhoFunc.Name = "btnDesempenhoFunc";
             this.btnDesempenhoFunc.Size = new System.Drawing.Size(370, 94);
             this.btnDesempenhoFunc.TabIndex = 3;
             this.btnDesempenhoFunc.Text = "Desempenho de funcionários";
             this.btnDesempenhoFunc.UseVisualStyleBackColor = true;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.FileCsv;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(257, 464);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(370, 94);
+            this.iconButton1.TabIndex = 4;
+            this.iconButton1.Text = "Exportar Dados";
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.btnExportarCsv_Click);
             // 
             // FormRelatorios
             // 
@@ -109,6 +128,7 @@ namespace GestaoUnipResort.Forms.Relatorios
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(901, 630);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.btnDesempenhoFunc);
             this.Controls.Add(this.btnRelatorioQuartos);
             this.Controls.Add(this.btnFinanças);
@@ -128,5 +148,6 @@ namespace GestaoUnipResort.Forms.Relatorios
         private FontAwesome.Sharp.IconButton btnFinanças;
         private FontAwesome.Sharp.IconButton btnRelatorioQuartos;
         private FontAwesome.Sharp.IconButton btnDesempenhoFunc;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
