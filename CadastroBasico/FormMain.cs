@@ -28,7 +28,7 @@ namespace GestaoUnipResort
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            FormLogin frm = new FormLogin();
+            //FormLogin frm = new FormLogin();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
