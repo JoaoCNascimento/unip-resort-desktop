@@ -91,6 +91,7 @@ namespace GestaoUnipResort.Forms.Funcionarios
             this.dataGridViewFuncionarios.ShowRowErrors = false;
             this.dataGridViewFuncionarios.Size = new System.Drawing.Size(829, 311);
             this.dataGridViewFuncionarios.TabIndex = 0;
+            this.dataGridViewFuncionarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewFuncionarios_CellContentClick);
             // 
             // txtNome
             // 

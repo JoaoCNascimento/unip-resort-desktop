@@ -81,112 +81,123 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // textBoxSalario
             // 
             this.textBoxSalario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxSalario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSalario.ForeColor = System.Drawing.Color.White;
+            this.textBoxSalario.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSalario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxSalario.Location = new System.Drawing.Point(656, 179);
             this.textBoxSalario.Name = "textBoxSalario";
-            this.textBoxSalario.Size = new System.Drawing.Size(108, 25);
+            this.textBoxSalario.Size = new System.Drawing.Size(108, 22);
             this.textBoxSalario.TabIndex = 82;
+            this.textBoxSalario.TextChanged += new System.EventHandler(this.textBoxSalario_TextChanged);
             // 
             // textBoxSenha2
             // 
             this.textBoxSenha2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxSenha2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSenha2.ForeColor = System.Drawing.Color.White;
+            this.textBoxSenha2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxSenha2.Location = new System.Drawing.Point(193, 524);
             this.textBoxSenha2.Name = "textBoxSenha2";
-            this.textBoxSenha2.Size = new System.Drawing.Size(100, 25);
+            this.textBoxSenha2.Size = new System.Drawing.Size(100, 22);
             this.textBoxSenha2.TabIndex = 75;
+            this.textBoxSenha2.TextChanged += new System.EventHandler(this.textBoxSenha2_TextChanged);
             // 
             // textBoxSenha
             // 
             this.textBoxSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxSenha.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSenha.ForeColor = System.Drawing.Color.White;
+            this.textBoxSenha.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxSenha.Location = new System.Drawing.Point(78, 524);
             this.textBoxSenha.Name = "textBoxSenha";
-            this.textBoxSenha.Size = new System.Drawing.Size(100, 25);
+            this.textBoxSenha.Size = new System.Drawing.Size(100, 22);
             this.textBoxSenha.TabIndex = 74;
+            this.textBoxSenha.TextChanged += new System.EventHandler(this.textBoxSenha_TextChanged);
             // 
             // textBoxCidade
             // 
             this.textBoxCidade.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxCidade.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCidade.ForeColor = System.Drawing.Color.White;
+            this.textBoxCidade.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCidade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxCidade.Location = new System.Drawing.Point(367, 291);
             this.textBoxCidade.Name = "textBoxCidade";
-            this.textBoxCidade.Size = new System.Drawing.Size(86, 25);
+            this.textBoxCidade.Size = new System.Drawing.Size(86, 22);
             this.textBoxCidade.TabIndex = 72;
+            this.textBoxCidade.TextChanged += new System.EventHandler(this.textBoxCidade_TextChanged);
             // 
             // textBoxEstado
             // 
             this.textBoxEstado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEstado.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEstado.ForeColor = System.Drawing.Color.White;
+            this.textBoxEstado.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEstado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxEstado.Location = new System.Drawing.Point(476, 291);
             this.textBoxEstado.Name = "textBoxEstado";
-            this.textBoxEstado.Size = new System.Drawing.Size(108, 25);
+            this.textBoxEstado.Size = new System.Drawing.Size(108, 22);
             this.textBoxEstado.TabIndex = 73;
+            this.textBoxEstado.TextChanged += new System.EventHandler(this.textBoxEstado_TextChanged);
             // 
             // textBoxBairro
             // 
             this.textBoxBairro.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxBairro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBairro.ForeColor = System.Drawing.Color.White;
+            this.textBoxBairro.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxBairro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxBairro.Location = new System.Drawing.Point(472, 235);
             this.textBoxBairro.Name = "textBoxBairro";
-            this.textBoxBairro.Size = new System.Drawing.Size(108, 25);
+            this.textBoxBairro.Size = new System.Drawing.Size(108, 22);
             this.textBoxBairro.TabIndex = 71;
+            this.textBoxBairro.TextChanged += new System.EventHandler(this.textBoxBairro_TextChanged);
             // 
             // textBoxNumero
             // 
             this.textBoxNumero.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxNumero.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNumero.ForeColor = System.Drawing.Color.White;
+            this.textBoxNumero.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNumero.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxNumero.Location = new System.Drawing.Point(365, 235);
             this.textBoxNumero.Name = "textBoxNumero";
-            this.textBoxNumero.Size = new System.Drawing.Size(52, 25);
+            this.textBoxNumero.Size = new System.Drawing.Size(52, 22);
             this.textBoxNumero.TabIndex = 70;
+            this.textBoxNumero.TextChanged += new System.EventHandler(this.textBoxNumero_TextChanged);
             // 
             // textBoxEndereco
             // 
             this.textBoxEndereco.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEndereco.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEndereco.ForeColor = System.Drawing.Color.White;
+            this.textBoxEndereco.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEndereco.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxEndereco.Location = new System.Drawing.Point(365, 179);
             this.textBoxEndereco.Name = "textBoxEndereco";
-            this.textBoxEndereco.Size = new System.Drawing.Size(215, 25);
+            this.textBoxEndereco.Size = new System.Drawing.Size(215, 22);
             this.textBoxEndereco.TabIndex = 69;
+            this.textBoxEndereco.TextChanged += new System.EventHandler(this.textBoxEndereco_TextChanged);
             // 
             // textBoxTelefone
             // 
             this.textBoxTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxTelefone.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTelefone.ForeColor = System.Drawing.Color.White;
+            this.textBoxTelefone.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTelefone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxTelefone.Location = new System.Drawing.Point(77, 179);
             this.textBoxTelefone.Name = "textBoxTelefone";
-            this.textBoxTelefone.Size = new System.Drawing.Size(101, 25);
+            this.textBoxTelefone.Size = new System.Drawing.Size(101, 22);
             this.textBoxTelefone.TabIndex = 53;
+            this.textBoxTelefone.TextChanged += new System.EventHandler(this.textBoxTelefone_TextChanged);
             // 
             // textBoxEmail
             // 
             this.textBoxEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.ForeColor = System.Drawing.Color.White;
+            this.textBoxEmail.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxEmail.Location = new System.Drawing.Point(78, 464);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(215, 25);
+            this.textBoxEmail.Size = new System.Drawing.Size(215, 22);
             this.textBoxEmail.TabIndex = 51;
+            this.textBoxEmail.TextChanged += new System.EventHandler(this.textBoxEmail_TextChanged);
             // 
             // textBoxNome
             // 
             this.textBoxNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxNome.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNome.ForeColor = System.Drawing.Color.White;
+            this.textBoxNome.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxNome.Location = new System.Drawing.Point(77, 120);
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(215, 25);
+            this.textBoxNome.Size = new System.Drawing.Size(215, 22);
             this.textBoxNome.TabIndex = 49;
+            this.textBoxNome.TextChanged += new System.EventHandler(this.textBoxNome_TextChanged);
             // 
             // label17
             // 
@@ -227,50 +238,54 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // textBoxCPF
             // 
             this.textBoxCPF.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxCPF.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCPF.ForeColor = System.Drawing.Color.White;
+            this.textBoxCPF.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCPF.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxCPF.Location = new System.Drawing.Point(77, 235);
-            this.textBoxCPF.Mask = "000.000.000-00";
+            this.textBoxCPF.Mask = "000,000,000-00";
             this.textBoxCPF.Name = "textBoxCPF";
-            this.textBoxCPF.Size = new System.Drawing.Size(101, 25);
+            this.textBoxCPF.Size = new System.Drawing.Size(101, 22);
             this.textBoxCPF.TabIndex = 59;
             this.textBoxCPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxCPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.textBoxCPF_MaskInputRejected);
             // 
             // textBoxRG
             // 
             this.textBoxRG.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxRG.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRG.ForeColor = System.Drawing.Color.White;
+            this.textBoxRG.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxRG.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxRG.Location = new System.Drawing.Point(192, 235);
-            this.textBoxRG.Mask = "00.000.000-0";
+            this.textBoxRG.Mask = "00,000,000-0";
             this.textBoxRG.Name = "textBoxRG";
-            this.textBoxRG.Size = new System.Drawing.Size(100, 25);
+            this.textBoxRG.Size = new System.Drawing.Size(100, 22);
             this.textBoxRG.TabIndex = 62;
             this.textBoxRG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxRG.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.textBoxRG_MaskInputRejected);
             // 
             // textBoxDataNascimento
             // 
             this.textBoxDataNascimento.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxDataNascimento.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDataNascimento.ForeColor = System.Drawing.Color.White;
+            this.textBoxDataNascimento.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDataNascimento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxDataNascimento.Location = new System.Drawing.Point(190, 179);
             this.textBoxDataNascimento.Mask = "00/00/0000";
             this.textBoxDataNascimento.Name = "textBoxDataNascimento";
-            this.textBoxDataNascimento.Size = new System.Drawing.Size(100, 25);
+            this.textBoxDataNascimento.Size = new System.Drawing.Size(100, 22);
             this.textBoxDataNascimento.TabIndex = 55;
             this.textBoxDataNascimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxDataNascimento.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.textBoxDataNascimento_MaskInputRejected);
             // 
             // textBoxCEP
             // 
             this.textBoxCEP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBoxCEP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCEP.ForeColor = System.Drawing.Color.White;
+            this.textBoxCEP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCEP.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxCEP.Location = new System.Drawing.Point(365, 120);
             this.textBoxCEP.Mask = "00000-000";
             this.textBoxCEP.Name = "textBoxCEP";
-            this.textBoxCEP.Size = new System.Drawing.Size(100, 25);
+            this.textBoxCEP.Size = new System.Drawing.Size(100, 22);
             this.textBoxCEP.TabIndex = 68;
             this.textBoxCEP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxCEP.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.textBoxCEP_MaskInputRejected);
             // 
             // label14
             // 
@@ -435,6 +450,7 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // radioBtnMasculino
             // 
             this.radioBtnMasculino.AutoSize = true;
+            this.radioBtnMasculino.Checked = true;
             this.radioBtnMasculino.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.radioBtnMasculino.Location = new System.Drawing.Point(6, 21);
             this.radioBtnMasculino.Name = "radioBtnMasculino";
@@ -507,12 +523,13 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox1.Location = new System.Drawing.Point(656, 235);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(108, 25);
+            this.textBox1.Size = new System.Drawing.Size(108, 22);
             this.textBox1.TabIndex = 84;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnSalvar
             // 
@@ -533,6 +550,7 @@ namespace GestaoUnipResort.Forms.Funcionarios
             this.btnSalvar.Size = new System.Drawing.Size(69, 69);
             this.btnSalvar.TabIndex = 86;
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnLimpar
             // 
@@ -567,12 +585,13 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // txtEmailContato
             // 
             this.txtEmailContato.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtEmailContato.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailContato.ForeColor = System.Drawing.Color.White;
+            this.txtEmailContato.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailContato.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtEmailContato.Location = new System.Drawing.Point(77, 350);
             this.txtEmailContato.Name = "txtEmailContato";
-            this.txtEmailContato.Size = new System.Drawing.Size(215, 25);
+            this.txtEmailContato.Size = new System.Drawing.Size(215, 22);
             this.txtEmailContato.TabIndex = 89;
+            this.txtEmailContato.TextChanged += new System.EventHandler(this.txtEmailContato_TextChanged);
             // 
             // label20
             // 
@@ -589,13 +608,16 @@ namespace GestaoUnipResort.Forms.Funcionarios
             // comboBox1
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.DisplayMember = "CARGO";
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(656, 120);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(140, 25);
+            this.comboBox1.Size = new System.Drawing.Size(140, 21);
             this.comboBox1.TabIndex = 90;
             this.comboBox1.ValueMember = "CARGO";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // FormCadastrarFuncionario
             // 
@@ -645,6 +667,8 @@ namespace GestaoUnipResort.Forms.Funcionarios
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCadastrarFuncionario";
             this.Text = "FormCadastrarFuncionario";
